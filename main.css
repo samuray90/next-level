@@ -1,8 +1,8 @@
 body {
   min-height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   background: #0124;
 }
 
@@ -10,4 +10,16 @@ body {
   font-family: 'Orbitron', sans-serif;
   font-size: 6rem;
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #0124;
+}
+
+.naked {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: large;
+  font-family: 'Orbitron', sans-serif;
+  color:black;
 }
