@@ -1,10 +1,10 @@
-* {
+/* * {
   margin: 0;
   padding: 1px;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
-}
+  list-style: none; */
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
 
 .navbar__header {
   background: #546450;
@@ -73,3 +73,50 @@ header {
   min-height: calc(100vh - 91.8px);
   background: url(./img/back.jpg)center/cover;
 }
+
+.login-box {
+  width: 290px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-45%,-50%);
+  color: rgb(250, 71, 0);
+  background: black;
+  opacity: 90%;
+  border-radius: 15px;
+}
+
+.login-box h1 {
+  float: center;
+  border-bottom: 2px solid rgb(250, 71, 0);
+  margin-bottom: 50px;
+  padding: 13px 17%;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textbox {
+  width: 99%;
+  overflow: hidden;
+  font-size: 15px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 2px solid orangered;
+  position: relative;
+  border-radius: 7px;
+  background-position: inherit;
+  border-radius: 10px 100px / 120px;
+}
+
+.button {
+  margin-left: 54px;
+  margin-bottom: 10px;
+  border: 2px solid orangered;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #9b2400;
+}
+

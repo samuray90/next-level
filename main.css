@@ -16,10 +16,12 @@ body {
   background: #0124;
 }
 
-.naked {
+.naked,
+.dum {
   font-weight: bold;
   text-decoration: none;
   font-size: large;
   font-family: 'Orbitron', sans-serif;
   color:black;
+  padding:10px;
 }
